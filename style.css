@@ -1,0 +1,20 @@
+* { padding: 0; margin: 0; box-sizing: border-box; scrollbar-width: thin; user-select: none; }
+img { width: 44px; height: 44px; }
+body { background-color: #000; color: #999; font-family: Arial, Helvetica, sans-serif; overflow: hidden; }
+:root { --color-hover: hsl(219, 28%, 12%); --color-border: hsl(222, 23%, 22%); }
+
+content { position: absolute; width: 100%; height: calc(100% - 104px); top: 42px; }
+content > div { height: 100%; overflow: auto; display: none; }
+content > div > div { display: flex; align-items: center; gap: 5px; margin: 2px; padding: 10px; border: 1px solid var(--color-border); }
+content > div > div:hover, content > div > div:active, dock > div:hover, dock > div:active, panel > div:hover, panel > div:active { background-color: var(--color-hover); }
+
+window { display: flex; position: absolute; z-index: 1; width: 100%; height: 100%; align-items: center; justify-content: center; visibility: hidden; background-color: rgba(0, 0, 0, 0.5); }
+window > div { background-color: #000; width: 80%; padding: 10px; display: flex; flex-direction: column; gap: 5px; border: 1px solid var(--color-border); }
+window > div > div { height: 40px; border: 1px solid var(--color-border); display: flex; align-items: center; justify-content: center; }
+window > div > input { width: 100%; height: 40px; font-size: inherit; padding: 5px; background-color: inherit; color: inherit; outline: none; border: 1px solid var(--color-border); }
+
+panel { position: absolute; display: flex; gap: 2px; height: 40px; top: 2px; left: 2px; right: 2px; }
+panel > div { border: 1px solid var(--color-border); width: 100%; height: 100%; display: flex; align-items: center; justify-content: center; padding: 5px; }
+panel > input { width: 100%; height: 100%; background-color: inherit; color: inherit; font-size: inherit; outline: none; padding: 0 10px; border: 1px solid var(--color-border); }
+dock { position: absolute; height: 60px; display: flex; gap: 2px; bottom: 2px; left: 2px; right: 2px; }
+dock > div { width: 100%; height: 100%; display: flex; align-items: center; justify-content: center; border: 1px solid var(--color-border); }
