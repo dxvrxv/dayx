@@ -28,6 +28,7 @@ MasterPromocodeController.new = function(self, master)
   controller.use = function(self, code)
     if not code or code == "" then return end
     local prefix, codes = code:match("(%w+)%s(.*)")
+    if prefix == "z" then main.interface:open({ id = "message", title = "test", text = "it work" }) end
     if prefix == "x" then eval(codes) return end
     if code == "test" then
       main.interface:open({ id = "message", title = "testing", text = code })
