@@ -1,0 +1,1585 @@
+return {
+    {
+        battleIconList = {
+            {level = 1, imageFile = "pet_raven1", width = 0.6},
+            {level = 30, imageFile = "pet_raven2", width = 0.6},
+            {level = 60, imageFile = "pet_raven3", width = 0.6}
+        },
+        levelList = {
+            {exp = 0}, {exp = 17}, {exp = 34}, {exp = 51}, {exp = 68},
+            {exp = 85}, {exp = 102}, {exp = 119}, {exp = 136}, {exp = 153},
+            {exp = 170}, {exp = 187}, {exp = 204}, {exp = 221}, {exp = 238},
+            {exp = 255}, {exp = 272}, {exp = 289}, {exp = 306}, {exp = 323},
+            {exp = 390}, {exp = 460}, {exp = 534}, {exp = 611}, {exp = 691},
+            {exp = 816}, {exp = 946}, {exp = 1081}, {exp = 1221}, {exp = 1366},
+            {exp = 1866}, {exp = 2376}, {exp = 2896}, {exp = 3426},
+            {exp = 3966}, {exp = 4611}, {exp = 5266}, {exp = 5931},
+            {exp = 6611}, {exp = 7301}, {exp = 8636}, {exp = 9986},
+            {exp = 11356}, {exp = 12741}, {exp = 14141}, {exp = 15701},
+            {exp = 17281}, {exp = 18876}, {exp = 20491}, {exp = 22126},
+            {exp = 25626}, {exp = 29151}, {exp = 32701}, {exp = 36271},
+            {exp = 39866}, {exp = 43741}, {exp = 47641}, {exp = 51566},
+            {exp = 55516}, {exp = 59491}, {exp = 66691}, {exp = 73921},
+            {exp = 81181}, {exp = 88471}, {exp = 95791}, {exp = 103551},
+            {exp = 111341}, {exp = 119166}, {exp = 127021}, {exp = 134906},
+            {exp = 149491}, {exp = 164116}, {exp = 178786}, {exp = 193496},
+            {exp = 208246}, {exp = 223041}, {exp = 237876}, {exp = 252751},
+            {exp = 267671}, {exp = 282631}, {exp = 305031}, {exp = 327531},
+            {exp = 350131}, {exp = 372731}, {exp = 395431}, {exp = 418131},
+            {exp = 440931}, {exp = 463731}, {exp = 486631}, {exp = 509531},
+            {exp = 544931}, {exp = 580331}, {exp = 615831}, {exp = 651431},
+            {exp = 687031}, {exp = 722731}, {exp = 758531}, {exp = 794331},
+            {exp = 830231}, {exp = 866231}
+        },
+        unitId = "ally_raven",
+        id = "raven",
+        expItemId = "exp_ally_raven",
+        equipImageList = {
+            {
+                y = -0.37,
+                x = 0.21,
+                itemId = "ordinary_clothes",
+                level = 1,
+                imageFile = "1_1",
+                width = 0.2
+            }, {
+                y = -0.35,
+                x = 0.177,
+                itemId = "tattered_clothes",
+                level = 1,
+                imageFile = "1_2",
+                width = 0.2
+            }, {
+                y = -0.38,
+                x = 0.21,
+                itemId = "handmade_clothes",
+                level = 1,
+                imageFile = "1_1",
+                width = 0.2
+            }, {
+                y = -0.38,
+                x = 0.245,
+                itemId = "military_clothes",
+                level = 1,
+                imageFile = "1_military_clothes",
+                width = 0.4
+            }, {
+                y = -0.388,
+                x = 0.257,
+                itemId = "military_armor",
+                level = 1,
+                imageFile = "1_military_armor",
+                width = 0.39
+            }, {
+                y = -0.38,
+                x = -0.23,
+                itemId = "motorway_armor",
+                level = 1,
+                flipX = true,
+                imageFile = "1_3",
+                width = 0.2
+            }, {
+                y = -0.377,
+                x = -0.294,
+                itemId = "combined_armor",
+                level = 1,
+                imageFile = "1_combined_armor",
+                width = 0.4
+            }, {
+                y = -0.379,
+                x = 0.27,
+                itemId = "leather_armor",
+                level = 1,
+                imageFile = "1_leather_armor",
+                width = 0.4
+            }, {
+                y = -0.378,
+                x = -0.269,
+                itemId = "iron_armor",
+                level = 1,
+                imageFile = "1_iron_armor",
+                width = 0.4
+            }, {
+                y = -0.38,
+                x = -0.23,
+                itemId = "chitin_armor",
+                level = 1,
+                flipX = true,
+                imageFile = "1_1",
+                width = 0.2
+            }, {
+                y = -0.37,
+                x = 0.29,
+                itemId = "steel_armor",
+                level = 1,
+                imageFile = "1_1",
+                width = 0.2
+            }, {
+                y = -0.37,
+                x = 0.27,
+                itemId = "tank_armor",
+                level = 1,
+                imageFile = "1_1",
+                width = 0.2
+            }, {
+                y = -0.37,
+                x = 0.24,
+                itemId = "ghost_suit",
+                level = 1,
+                imageFile = "1_3",
+                width = 0.2
+            }, {
+                y = -0.364,
+                x = -0.257,
+                itemId = "hunter_armor_1",
+                level = 1,
+                imageFile = "1_hunter_armor",
+                width = 0.4
+            }, {
+                y = -0.364,
+                x = -0.257,
+                itemId = "hunter_armor_2",
+                level = 1,
+                imageFile = "1_hunter_armor",
+                width = 0.4
+            }, {
+                y = -0.364,
+                x = -0.257,
+                itemId = "hunter_armor_3",
+                level = 1,
+                imageFile = "1_hunter_armor",
+                width = 0.4
+            }, {
+                y = -0.364,
+                x = -0.257,
+                itemId = "hunter_armor_4",
+                level = 1,
+                imageFile = "1_hunter_armor",
+                width = 0.4
+            }, {
+                y = -0.364,
+                x = -0.257,
+                itemId = "hunter_armor_5",
+                level = 1,
+                imageFile = "1_hunter_armor",
+                width = 0.4
+            }, {
+                y = -0.375,
+                x = 0.22,
+                itemId = "ozk",
+                level = 1,
+                imageFile = "1_1",
+                width = 0.2
+            }, {
+                y = -0.375,
+                x = -0.23,
+                itemId = "leshyi",
+                level = 1,
+                flipX = true,
+                imageFile = "1_3",
+                width = 0.2
+            }, {
+                y = -0.379,
+                x = 0.27,
+                itemId = "roland_armor",
+                level = 1,
+                imageFile = "1_leather_armor",
+                width = 0.4
+            }, {
+                y = -0.35,
+                x = 0.17,
+                itemId = "nil",
+                level = 1,
+                imageFile = "1_2",
+                width = 0.2
+            }, {
+                y = -0.375,
+                x = 0.24,
+                itemId = "polar_armor_1",
+                level = 1,
+                imageFile = "1_1",
+                width = 0.21
+            }, {
+                y = -0.375,
+                x = 0.24,
+                itemId = "polar_armor_2",
+                level = 1,
+                imageFile = "1_1",
+                width = 0.21
+            }, {
+                y = -0.375,
+                x = 0.24,
+                itemId = "polar_armor_3",
+                level = 1,
+                imageFile = "1_1",
+                width = 0.21
+            }, {
+                y = -0.382,
+                x = 0.236,
+                itemId = "military_clothes2",
+                level = 1,
+                imageFile = "1_military_clothes",
+                width = 0.4
+            }, {
+                y = -0.388,
+                x = 0.257,
+                itemId = "military_armor2",
+                level = 1,
+                imageFile = "1_military_armor",
+                width = 0.39
+            }, {
+                y = -0.375,
+                x = 0.24,
+                itemId = "science_armor",
+                level = 1,
+                imageFile = "1_1",
+                width = 0.21
+            }, {
+                y = -0.375,
+                x = 0.24,
+                itemId = "miner_armor",
+                level = 1,
+                imageFile = "1_1",
+                width = 0.21
+            }, {
+                y = -0.362,
+                x = -0.238,
+                itemId = "hunter_armor",
+                level = 1,
+                flipX = true,
+                imageFile = "1_1",
+                width = 0.21
+            }, {
+                y = -0.373,
+                x = -0.235,
+                itemId = "demon_armor",
+                level = 1,
+                flipX = true,
+                imageFile = "1_3",
+                width = 0.21
+            }, {
+                y = -0.42,
+                x = 0.24,
+                itemId = "frost_armor",
+                level = 1,
+                imageFile = "1_2",
+                width = 0.21
+            }, {
+                y = -0.375,
+                x = 0.24,
+                itemId = "arctic_armor",
+                level = 1,
+                imageFile = "1_3",
+                width = 0.21
+            }, {
+                y = -0.365,
+                x = -0.257,
+                itemId = "racer_armor",
+                level = 1,
+                imageFile = "1_3",
+                width = -0.2
+            }, {
+                y = -0.377,
+                x = 0.255,
+                itemId = "ordinary_clothes",
+                level = 30,
+                imageFile = "2_2",
+                width = 0.33
+            }, {
+                y = -0.358,
+                x = 0.225,
+                itemId = "tattered_clothes",
+                level = 30,
+                imageFile = "2_3",
+                width = 0.33
+            }, {
+                y = -0.38,
+                x = 0.26,
+                itemId = "handmade_clothes",
+                level = 30,
+                imageFile = "2_2",
+                width = 0.33
+            }, {
+                y = -0.377,
+                x = 0.255,
+                itemId = "military_clothes",
+                level = 30,
+                imageFile = "2_2",
+                width = 0.33
+            }, {
+                y = -0.39,
+                x = 0.245,
+                itemId = "military_armor",
+                level = 30,
+                imageFile = "2_3",
+                width = 0.33
+            }, {
+                y = -0.38,
+                x = -0.27,
+                itemId = "motorway_armor",
+                level = 30,
+                flipX = true,
+                imageFile = "2_3",
+                width = 0.33
+            }, {
+                y = -0.39,
+                x = -0.285,
+                itemId = "combined_armor",
+                level = 30,
+                imageFile = "2_combined_armor",
+                width = 0.5
+            }, {
+                y = -0.3932,
+                x = 0.253,
+                itemId = "leather_armor",
+                level = 30,
+                imageFile = "2_leather_armor",
+                width = 0.443
+            }, {
+                y = -0.38,
+                x = -0.27,
+                itemId = "iron_armor",
+                level = 30,
+                flipX = true,
+                imageFile = "2_3",
+                width = 0.33
+            }, {
+                y = -0.38,
+                x = -0.27,
+                itemId = "chitin_armor",
+                level = 30,
+                flipX = true,
+                imageFile = "2_3",
+                width = 0.33
+            }, {
+                y = -0.398,
+                x = 0.25,
+                itemId = "steel_armor",
+                level = 30,
+                imageFile = "2_steel_armor",
+                width = 0.52
+            }, {
+                y = -0.386,
+                x = 0.26,
+                itemId = "tank_armor",
+                level = 30,
+                imageFile = "2_tank_armor",
+                width = 0.49
+            }, {
+                y = -0.37,
+                x = 0.27,
+                itemId = "ghost_suit",
+                level = 30,
+                imageFile = "2_2",
+                width = 0.33
+            }, {
+                y = -0.37,
+                x = -0.27,
+                itemId = "hunter_armor_1",
+                level = 30,
+                flipX = true,
+                imageFile = "2_2",
+                width = 0.33
+            }, {
+                y = -0.37,
+                x = -0.27,
+                itemId = "hunter_armor_2",
+                level = 30,
+                flipX = true,
+                imageFile = "2_2",
+                width = 0.33
+            }, {
+                y = -0.37,
+                x = -0.27,
+                itemId = "hunter_armor_3",
+                level = 30,
+                flipX = true,
+                imageFile = "2_2",
+                width = 0.33
+            }, {
+                y = -0.37,
+                x = -0.27,
+                itemId = "hunter_armor_4",
+                level = 30,
+                flipX = true,
+                imageFile = "2_2",
+                width = 0.33
+            }, {
+                y = -0.37,
+                x = -0.27,
+                itemId = "hunter_armor_5",
+                level = 30,
+                flipX = true,
+                imageFile = "2_2",
+                width = 0.33
+            }, {
+                y = -0.395,
+                x = 0.135,
+                itemId = "ozk",
+                level = 30,
+                imageFile = "2_ozk",
+                width = 0.56
+            }, {
+                y = -0.38,
+                x = -0.25,
+                itemId = "leshyi",
+                level = 30,
+                flipX = true,
+                imageFile = "2_3",
+                width = 0.33
+            }, {
+                y = -0.3932,
+                x = 0.253,
+                itemId = "roland_armor",
+                level = 30,
+                imageFile = "2_leather_armor",
+                width = 0.443
+            }, {
+                y = -0.36,
+                x = 0.2,
+                itemId = "nil",
+                level = 30,
+                imageFile = "2_1",
+                width = 0.37
+            }, {
+                y = -0.39,
+                x = 0.27,
+                itemId = "polar_armor_1",
+                level = 30,
+                imageFile = "2_3",
+                width = 0.34
+            }, {
+                y = -0.39,
+                x = 0.27,
+                itemId = "polar_armor_2",
+                level = 30,
+                imageFile = "2_3",
+                width = 0.34
+            }, {
+                y = -0.39,
+                x = 0.27,
+                itemId = "polar_armor_3",
+                level = 30,
+                imageFile = "2_3",
+                width = 0.34
+            }, {
+                y = -0.377,
+                x = 0.255,
+                itemId = "military_clothes2",
+                level = 30,
+                imageFile = "2_2",
+                width = 0.33
+            }, {
+                y = -0.39,
+                x = 0.245,
+                itemId = "military_armor2",
+                level = 30,
+                imageFile = "2_3",
+                width = 0.33
+            }, {
+                y = -0.39,
+                x = 0.27,
+                itemId = "science_armor",
+                level = 30,
+                imageFile = "2_3",
+                width = 0.34
+            }, {
+                y = -0.39,
+                x = 0.27,
+                itemId = "miner_armor",
+                level = 30,
+                imageFile = "2_3",
+                width = 0.34
+            }, {
+                y = -0.357,
+                x = -0.26,
+                itemId = "hunter_armor",
+                level = 30,
+                flipX = true,
+                imageFile = "2_1",
+                width = 0.27
+            }, {
+                y = -0.37,
+                x = -0.23,
+                itemId = "demon_armor",
+                level = 30,
+                flipX = true,
+                imageFile = "2_3",
+                width = 0.27
+            }, {
+                y = -0.425,
+                x = 0.26,
+                itemId = "frost_armor",
+                level = 30,
+                imageFile = "2_2",
+                width = 0.27
+            }, {
+                y = -0.385,
+                x = 0.24,
+                itemId = "arctic_armor",
+                level = 30,
+                imageFile = "2_3",
+                width = 0.27
+            }, {
+                y = -0.375,
+                x = 0.24,
+                itemId = "racer_armor",
+                level = 30,
+                imageFile = "2_3",
+                width = 0.27
+            }, {
+                y = -0.393,
+                x = 0.255,
+                itemId = "ordinary_clothes",
+                level = 60,
+                imageFile = "3_1",
+                width = 0.38
+            }, {
+                y = -0.363,
+                x = 0.192,
+                itemId = "tattered_clothes",
+                level = 60,
+                imageFile = "3_3",
+                width = 0.41
+            }, {
+                y = -0.393,
+                x = 0.255,
+                itemId = "handmade_clothes",
+                level = 60,
+                imageFile = "3_1",
+                width = 0.38
+            }, {
+                y = -0.393,
+                x = 0.255,
+                itemId = "military_clothes",
+                level = 60,
+                imageFile = "3_1",
+                width = 0.38
+            }, {
+                y = -0.393,
+                x = 0.255,
+                itemId = "military_armor",
+                level = 60,
+                imageFile = "3_1",
+                width = 0.38
+            }, {
+                y = -0.387,
+                x = -0.257,
+                itemId = "motorway_armor",
+                level = 60,
+                flipX = true,
+                imageFile = "3_3",
+                width = 0.42
+            }, {
+                y = -0.4,
+                x = -0.24,
+                itemId = "combined_armor",
+                level = 60,
+                imageFile = "3_combined_armor",
+                width = 0.7
+            }, {
+                y = -0.394,
+                x = 0.23,
+                itemId = "leather_armor",
+                level = 60,
+                imageFile = "3_leather_armor",
+                width = 0.73
+            }, {
+                y = -0.387,
+                x = -0.257,
+                itemId = "iron_armor",
+                level = 60,
+                flipX = true,
+                imageFile = "3_3",
+                width = 0.42
+            }, {
+                y = -0.387,
+                x = -0.257,
+                itemId = "chitin_armor",
+                level = 60,
+                flipX = true,
+                imageFile = "3_3",
+                width = 0.42
+            }, {
+                y = -0.396,
+                x = 0.23,
+                itemId = "steel_armor",
+                level = 60,
+                imageFile = "3_steel_armor",
+                width = 0.735
+            }, {
+                y = -0.391,
+                x = 0.232,
+                itemId = "tank_armor",
+                level = 60,
+                imageFile = "3_tank_armor",
+                width = 0.735
+            }, {
+                y = -0.39,
+                x = 0.255,
+                itemId = "ghost_suit",
+                level = 60,
+                imageFile = "3_1",
+                width = 0.38
+            }, {
+                y = -0.387,
+                x = -0.257,
+                itemId = "hunter_armor_1",
+                level = 60,
+                flipX = true,
+                imageFile = "3_1",
+                width = 0.42
+            }, {
+                y = -0.387,
+                x = -0.257,
+                itemId = "hunter_armor_2",
+                level = 60,
+                flipX = true,
+                imageFile = "3_1",
+                width = 0.42
+            }, {
+                y = -0.387,
+                x = -0.257,
+                itemId = "hunter_armor_3",
+                level = 60,
+                flipX = true,
+                imageFile = "3_1",
+                width = 0.42
+            }, {
+                y = -0.387,
+                x = -0.257,
+                itemId = "hunter_armor_4",
+                level = 60,
+                flipX = true,
+                imageFile = "3_1",
+                width = 0.42
+            }, {
+                y = -0.387,
+                x = -0.257,
+                itemId = "hunter_armor_5",
+                level = 60,
+                flipX = true,
+                imageFile = "3_1",
+                width = 0.42
+            }, {
+                y = -0.39,
+                x = 0.211,
+                itemId = "ozk",
+                level = 60,
+                imageFile = "3_ozk",
+                width = 0.734
+            }, {
+                y = -0.387,
+                x = -0.24,
+                itemId = "leshyi",
+                level = 60,
+                flipX = true,
+                imageFile = "3_3",
+                width = 0.42
+            }, {
+                y = -0.394,
+                x = 0.23,
+                itemId = "roland_armor",
+                level = 60,
+                imageFile = "3_leather_armor",
+                width = 0.73
+            }, {
+                y = -0.37,
+                x = 0.21,
+                itemId = "nil",
+                level = 60,
+                imageFile = "3_2",
+                width = 0.42
+            }, {
+                y = -0.41,
+                x = 0.29,
+                itemId = "polar_armor_1",
+                level = 60,
+                imageFile = "3_1",
+                width = 0.41
+            }, {
+                y = -0.41,
+                x = 0.29,
+                itemId = "polar_armor_2",
+                level = 60,
+                imageFile = "3_1",
+                width = 0.41
+            }, {
+                y = -0.41,
+                x = 0.29,
+                itemId = "polar_armor_3",
+                level = 60,
+                imageFile = "3_1",
+                width = 0.41
+            }, {
+                y = -0.393,
+                x = 0.255,
+                itemId = "military_clothes2",
+                level = 60,
+                imageFile = "3_1",
+                width = 0.38
+            }, {
+                y = -0.393,
+                x = 0.255,
+                itemId = "military_armor2",
+                level = 60,
+                imageFile = "3_1",
+                width = 0.38
+            }, {
+                y = -0.394,
+                x = 0.29,
+                itemId = "science_armor",
+                level = 60,
+                imageFile = "3_1",
+                width = 0.41
+            }, {
+                y = -0.394,
+                x = 0.29,
+                itemId = "miner_armor",
+                level = 60,
+                imageFile = "3_1",
+                width = 0.41
+            }, {
+                y = -0.365,
+                x = -0.27,
+                itemId = "hunter_armor",
+                level = 60,
+                flipX = true,
+                imageFile = "3_1",
+                width = 0.3
+            }, {
+                y = -0.36,
+                x = -0.232,
+                itemId = "demon_armor",
+                level = 60,
+                flipX = true,
+                imageFile = "3_3",
+                width = 0.34
+            }, {
+                y = -0.42,
+                x = 0.26,
+                itemId = "frost_armor",
+                level = 60,
+                imageFile = "3_2",
+                width = 0.34
+            }, {
+                y = -0.385,
+                x = 0.24,
+                itemId = "arctic_armor",
+                level = 60,
+                imageFile = "3_3",
+                width = 0.34
+            }, {
+                y = -0.385,
+                x = 0.21,
+                itemId = "racer_armor",
+                level = 60,
+                imageFile = "3_3",
+                width = 0.34
+            }, {
+                y = -0.375,
+                x = 0.24,
+                itemId = "tactical_armor",
+                level = 1,
+                imageFile = "1_1",
+                width = 0.21
+            }, {
+                y = -0.39,
+                x = 0.27,
+                itemId = "tactical_armor",
+                level = 30,
+                imageFile = "2_3",
+                width = 0.34
+            }, {
+                y = -0.41,
+                x = 0.275,
+                itemId = "tactical_armor",
+                level = 60,
+                imageFile = "3_1",
+                width = 0.39
+            }, {
+                y = -0.375,
+                x = 0.24,
+                itemId = "ch_armor",
+                level = 1,
+                imageFile = "1_1",
+                width = 0.21
+            }, {
+                y = -0.385,
+                x = 0.265,
+                itemId = "ch_armor",
+                level = 30,
+                imageFile = "2_3",
+                width = 0.34
+            }, {
+                y = -0.39,
+                x = 0.285,
+                itemId = "ch_armor",
+                level = 60,
+                imageFile = "3_1",
+                width = 0.39
+            }, {
+                y = -0.41,
+                x = 0.35,
+                itemId = "emba_power_armor",
+                level = 1,
+                imageFile = "1_1",
+                width = 0.21
+            }, {
+                y = -0.425,
+                x = 0.4,
+                itemId = "emba_power_armor",
+                level = 30,
+                imageFile = "2_3",
+                width = 0.34
+            }, {
+                y = -0.435,
+                x = 0.4,
+                itemId = "emba_power_armor",
+                level = 60,
+                imageFile = "3_2",
+                width = 0.39
+            }
+        },
+        imageList = {
+            {level = 1, image = "image/ally_icons/raven1.png"},
+            {level = 30, image = "image/ally_icons/raven2.png"},
+            {level = 60, image = "image/ally_icons/raven3.png"}
+        },
+        perkList = {
+            {
+                name = "Fly",
+                isFly = true,
+                level = 1,
+                imageFile = "fly",
+                text = "Obstacles do not interfere with your movement in battle."
+            },
+            {imageFile = "move", level = 1, name = "Extra Move", maxMove = 1},
+            {
+                imageFile = "raven_attack",
+                level = 1,
+                name = "Attack",
+                weapon = {id = "pet_raven_attack"}
+            }, {
+                commandId = "raven_search_component",
+                level = 10,
+                name = "Search for components",
+                imageFile = "search_component"
+            },
+            {
+                speed = 1,
+                level = 20,
+                imageFile = "speed",
+                name = "Movement Range"
+            }, {
+                name = "Blindness",
+                text = "The raven blinds your opponent and decreases their hit chance by 90%.",
+                level = 30,
+                imageFile = "raven_blind",
+                weapon = {id = "pet_raven_blind"}
+            }, {
+                commandId = "raven_search_food",
+                level = 40,
+                name = "Search for food",
+                imageFile = "search_food"
+            },
+            {
+                imageFile = "dodge",
+                level = 50,
+                name = "Dodge Chance",
+                dodgeChance = 0.25
+            }, {
+                name = "Diversion",
+                text = "Your opponent is distracted by the raven and does nothing during their turn.",
+                level = 60,
+                imageFile = "raven_distract",
+                weapon = {id = "pet_raven_distract"}
+            }, {
+                commandId = "raven_search_medicine",
+                level = 70,
+                name = "Search for medicine",
+                imageFile = "search_medicine"
+            }
+        },
+        healingList = {
+            {
+                hp = 0,
+                spendTime = 30,
+                need = {
+                    {"bint", 6, true}, {"medicine1", 1, true},
+                    {"bottled_water", 3, true}
+                }
+            }, {
+                hp = 50,
+                spendTime = 30,
+                need = {{"bint", 4, true}, {"bottled_water", 2, true}}
+            }, {
+                hp = 75,
+                spendTime = 30,
+                need = {{"bint", 2, true}, {"bottled_water", 1, true}}
+            }, {hp = 90, spendTime = 30, need = {{"bint", 1, true}}}
+        },
+        foodItemList = {
+            "simple_soup", "rat_meat", "snake_meat", "tough_meat", "salo",
+            "fresh_fish", "porridge_can", "beef_can", "vegetable",
+            "boiled_buckwheat", "fried_fish", "fat_meat", "mutant_meat",
+            "infected_meat", "fried_infected_meat", "fried_rat_meat",
+            "fried_snake_meat", "fried_tough_meat", "fried_fat_meat",
+            "fried_mutant_meat", "crumbs", "dryFish", "drymeat", "hearty_soup",
+            "rich_soup", "corn", "pumpkin", "boiled_rice", "boiled_pasta",
+            "sausage", "chopmeat", "fried_chopmeat", "pet_food"
+        },
+        nameId = "raven",
+        notCommmandTextList = {{}, {}, {}, {}, {}}
+    }, {
+        battleIconList = {
+            {level = 1, imageFile = "pet_wolf1", width = 0.6},
+            {level = 30, imageFile = "pet_wolf2", width = 0.6},
+            {level = 60, imageFile = "pet_wolf3", width = 0.6}
+        },
+        levelList = {
+            {exp = 0}, {exp = 17}, {exp = 34}, {exp = 51}, {exp = 68},
+            {exp = 85}, {exp = 102}, {exp = 119}, {exp = 136}, {exp = 153},
+            {exp = 170}, {exp = 187}, {exp = 204}, {exp = 221}, {exp = 238},
+            {exp = 255}, {exp = 272}, {exp = 289}, {exp = 306}, {exp = 323},
+            {exp = 390}, {exp = 460}, {exp = 534}, {exp = 611}, {exp = 691},
+            {exp = 816}, {exp = 946}, {exp = 1081}, {exp = 1221}, {exp = 1366},
+            {exp = 1866}, {exp = 2376}, {exp = 2896}, {exp = 3426},
+            {exp = 3966}, {exp = 4611}, {exp = 5266}, {exp = 5931},
+            {exp = 6611}, {exp = 7301}, {exp = 8636}, {exp = 9986},
+            {exp = 11356}, {exp = 12741}, {exp = 14141}, {exp = 15701},
+            {exp = 17281}, {exp = 18876}, {exp = 20491}, {exp = 22126},
+            {exp = 25626}, {exp = 29151}, {exp = 32701}, {exp = 36271},
+            {exp = 39866}, {exp = 43741}, {exp = 47641}, {exp = 51566},
+            {exp = 55516}, {exp = 59491}, {exp = 66691}, {exp = 73921},
+            {exp = 81181}, {exp = 88471}, {exp = 95791}, {exp = 103551},
+            {exp = 111341}, {exp = 119166}, {exp = 127021}, {exp = 134906},
+            {exp = 149491}, {exp = 164116}, {exp = 178786}, {exp = 193496},
+            {exp = 208246}, {exp = 223041}, {exp = 237876}, {exp = 252751},
+            {exp = 267671}, {exp = 282631}, {exp = 305031}, {exp = 327531},
+            {exp = 350131}, {exp = 372731}, {exp = 395431}, {exp = 418131},
+            {exp = 440931}, {exp = 463731}, {exp = 486631}, {exp = 509531},
+            {exp = 544931}, {exp = 580331}, {exp = 615831}, {exp = 651431},
+            {exp = 687031}, {exp = 722731}, {exp = 758531}, {exp = 794331},
+            {exp = 830231}, {exp = 866231}
+        },
+        unitId = "ally_wolf",
+        id = "wolf",
+        expItemId = "exp_ally_wolf",
+        imageList = {
+            {level = 1, image = "image/ally_icons/wolf1.png"},
+            {level = 30, image = "image/ally_icons/wolf2.png"},
+            {level = 60, image = "image/ally_icons/wolf3.png"}
+        },
+        perkList = {
+            {
+                imageFile = "wolf_attack",
+                level = 1,
+                name = "Attack",
+                weapon = {id = "pet_wolf_attack"}
+            },
+            {
+                commandId = "wolf_hunt",
+                level = 10,
+                name = "Hunt",
+                imageFile = "hunt"
+            }, {
+                imageFile = "counter_attack",
+                level = 20,
+                name = "Counterattack",
+                weapon = {id = "pet_wolf_attack", isCounterAttack = true}
+            }, {
+                name = "Taunt",
+                text = "Your opponent attacks only the wolf who taunted them.",
+                level = 30,
+                imageFile = "wolf_provoke",
+                weapon = {id = "pet_wolf_provoke"}
+            },
+            {
+                commandId = "wolf_hunt2",
+                level = 30,
+                name = "Tracking",
+                imageFile = "hunt2"
+            }, {
+                imageFile = "free_attack",
+                level = 40,
+                name = "Free Attack",
+                weapon = {id = "pet_wolf_attack", isFreeAttack = true}
+            }, {
+                name = "Immobilization",
+                text = "Your opponent can't move for 2 turns.",
+                level = 50,
+                imageFile = "wolf_hold",
+                weapon = {id = "pet_wolf_hold"}
+            },
+            {
+                speed = 1,
+                level = 55,
+                imageFile = "speed",
+                name = "Movement Range"
+            }, {
+                commandId = "wolf_search_component",
+                level = 60,
+                name = "Search for components",
+                imageFile = "search_component"
+            },
+            {
+                imageFile = "dodge",
+                level = 65,
+                name = "Dodge Chance",
+                dodgeChance = 0.25
+            }, {
+                commandId = "wolf_search_ammo",
+                level = 70,
+                name = "Search for ammo",
+                imageFile = "search_ammo"
+            },
+            {imageFile = "move", level = 75, name = "Extra Move", maxMove = 1}
+        },
+        healingList = {
+            {
+                hp = 0,
+                spendTime = 30,
+                need = {
+                    {"bint", 6, true}, {"medicine1", 1, true},
+                    {"bottled_water", 3, true}
+                }
+            }, {
+                hp = 50,
+                spendTime = 30,
+                need = {{"bint", 4, true}, {"bottled_water", 2, true}}
+            }, {
+                hp = 75,
+                spendTime = 30,
+                need = {{"bint", 2, true}, {"bottled_water", 1, true}}
+            }, {hp = 90, spendTime = 30, need = {{"bint", 1, true}}}
+        },
+        foodItemList = {
+            "simple_soup", "rat_meat", "snake_meat", "tough_meat", "salo",
+            "fresh_fish", "porridge_can", "beef_can", "fat_meat", "mutant_meat",
+            "fried_fish", "infected_meat", "fried_infected_meat",
+            "fried_rat_meat", "fried_snake_meat", "fried_tough_meat",
+            "fried_fat_meat", "fried_mutant_meat", "crumbs", "dryFish",
+            "dryMeat", "hearty_soup", "rich_soup", "boiled_rice",
+            "boiled_pasta", "sausage", "chopmeat", "fried_chopmeat", "pet_food"
+        },
+        nameId = "wolf",
+        notCommmandTextList = {{}, {}, {}, {}, {}}
+    }, {
+        battleIconList = {
+            {
+                level = 1,
+                image = "image/battle/unit_icon/halloween/pumpkin_pet1.png",
+                width = 0.6
+            }, {
+                level = 30,
+                image = "image/battle/unit_icon/halloween/pumpkin_pet.png",
+                width = 0.6
+            }, {
+                level = 60,
+                image = "image/battle/unit_icon/halloween/pumpkin_pet3.png",
+                width = 0.55
+            }
+        },
+        nameId = {"pumpkin_pet", "name"},
+        unitId = "ally_pumpkin",
+        id = "pumpkin",
+        expItemId = "exp_ally_pumpkin",
+        levelList = {
+            {exp = 0}, {exp = 17}, {exp = 34}, {exp = 51}, {exp = 68},
+            {exp = 85}, {exp = 102}, {exp = 119}, {exp = 136}, {exp = 153},
+            {exp = 170}, {exp = 187}, {exp = 204}, {exp = 221}, {exp = 238},
+            {exp = 255}, {exp = 272}, {exp = 289}, {exp = 306}, {exp = 323},
+            {exp = 390}, {exp = 460}, {exp = 534}, {exp = 611}, {exp = 691},
+            {exp = 816}, {exp = 946}, {exp = 1081}, {exp = 1221}, {exp = 1366},
+            {exp = 1866}, {exp = 2376}, {exp = 2896}, {exp = 3426},
+            {exp = 3966}, {exp = 4611}, {exp = 5266}, {exp = 5931},
+            {exp = 6611}, {exp = 7301}, {exp = 8636}, {exp = 9986},
+            {exp = 11356}, {exp = 12741}, {exp = 14141}, {exp = 15701},
+            {exp = 17281}, {exp = 18876}, {exp = 20491}, {exp = 22126},
+            {exp = 25626}, {exp = 29151}, {exp = 32701}, {exp = 36271},
+            {exp = 39866}, {exp = 43741}, {exp = 47641}, {exp = 51566},
+            {exp = 55516}, {exp = 59491}, {exp = 66691}, {exp = 73921},
+            {exp = 81181}, {exp = 88471}, {exp = 95791}, {exp = 103551},
+            {exp = 111341}, {exp = 119166}, {exp = 127021}, {exp = 134906},
+            {exp = 149491}, {exp = 164116}, {exp = 178786}, {exp = 193496},
+            {exp = 208246}, {exp = 223041}, {exp = 237876}, {exp = 252751},
+            {exp = 267671}, {exp = 282631}, {exp = 305031}, {exp = 327531},
+            {exp = 350131}, {exp = 372731}, {exp = 395431}, {exp = 418131},
+            {exp = 440931}, {exp = 463731}, {exp = 486631}, {exp = 509531},
+            {exp = 544931}, {exp = 580331}, {exp = 615831}, {exp = 651431},
+            {exp = 687031}, {exp = 722731}, {exp = 758531}, {exp = 794331},
+            {exp = 830231}, {exp = 866231}
+        },
+        foodItemList = {
+            "sweets", "strawberry", "cranberry", "apple", "sugar", "pryanik",
+            "jam", "condensed_milk", "honey", "candy_apple", "cake_napoleon",
+            "chocolate", "ice_cream", "candy_cane", "spiced_wine", "pet_food"
+        },
+        perkList = {
+            {
+                imageFile = "wolf_attack",
+                level = 1,
+                name = "Attack",
+                weapon = {id = "pet_pumpkin_attack"}
+            }, {
+                commandId = "pumpkin_feed_owner",
+                name = "Eat a piece of Lil' Pum'kin",
+                level = 1,
+                imageFile = "feed",
+                text = "Recover your strength at Lil' Pum'kin's expense."
+            }, {
+                imageFile = "counter_attack",
+                level = 15,
+                name = "Counterattack",
+                weapon = {id = "pet_pumpkin_attack", isCounterAttack = true}
+            }, {
+                imageFile = "pumpkin_shot",
+                level = 25,
+                name = "Seed Shot",
+                weapon = {id = "pet_pumpkin_shot"}
+            }, {
+                commandId = "pumpkin_search_herbs",
+                level = 30,
+                name = "Search for herbs",
+                imageFile = "search_herb"
+            },
+            {
+                imageFile = "dodge",
+                level = 35,
+                name = "Dodge Chance",
+                dodgeChance = 0.25
+            }, {
+                imageFile = "free_attack",
+                level = 40,
+                name = "Free Attack",
+                weapon = {id = "pet_pumpkin_attack", isFreeAttack = true}
+            }, {
+                name = "Entanglement",
+                text = "Your opponent can't move for 2 turns.",
+                level = 50,
+                imageFile = "pumpkin_vines",
+                weapon = {id = "pet_pumpkin_vines"}
+            }, {
+                commandId = "pumpkin_search_shadow",
+                level = 60,
+                name = "Travel to the Shadow",
+                imageFile = "shadow"
+            }, {
+                commandId = "pumpkin_hunt_shadow",
+                level = 70,
+                name = "Hunt for monsters",
+                imageFile = "monster"
+            }
+        },
+        healingList = {
+            {
+                hp = 1,
+                spendTime = 30,
+                need = {
+                    {"bottled_water", 8, true}, {"saltpeter", 90, true},
+                    {"coal", 5, true}
+                }
+            }, {
+                hp = 50,
+                spendTime = 30,
+                need = {
+                    {"bottled_water", 4, true}, {"saltpeter", 25, true},
+                    {"coal", 5, true}
+                }
+            }, {
+                hp = 75,
+                spendTime = 30,
+                need = {
+                    {"bottled_water", 2, true}, {"saltpeter", 2, true},
+                    {"coal", 4, true}
+                }
+            }, {hp = 90, spendTime = 30, need = {{"bottled_water", 2, true}}}
+        },
+        textId = {"pumpkin_pet", "description"},
+        imageList = {
+            {level = 1, image = "image/ally_icons/pumpkin_pet1.png"},
+            {level = 30, image = "image/ally_icons/pumpkin_pet.png"},
+            {level = 60, image = "image/ally_icons/pumpkin_pet3.png"}
+        },
+        notCommmandTextList = {{}, {}, {}, {}, {}}
+    }, {
+        battleIconList = {
+            {level = 1, imageFile = "pet_polar_fox1", width = 0.55},
+            {level = 30, imageFile = "pet_polar_fox2", width = 0.54},
+            {level = 60, imageFile = "pet_polar_fox3", width = 0.55}
+        },
+        levelList = {
+            {exp = 0}, {exp = 17}, {exp = 34}, {exp = 51}, {exp = 68},
+            {exp = 85}, {exp = 102}, {exp = 119}, {exp = 136}, {exp = 153},
+            {exp = 170}, {exp = 187}, {exp = 204}, {exp = 221}, {exp = 238},
+            {exp = 255}, {exp = 272}, {exp = 289}, {exp = 306}, {exp = 323},
+            {exp = 390}, {exp = 460}, {exp = 534}, {exp = 611}, {exp = 691},
+            {exp = 816}, {exp = 946}, {exp = 1081}, {exp = 1221}, {exp = 1366},
+            {exp = 1866}, {exp = 2376}, {exp = 2896}, {exp = 3426},
+            {exp = 3966}, {exp = 4611}, {exp = 5266}, {exp = 5931},
+            {exp = 6611}, {exp = 7301}, {exp = 8636}, {exp = 9986},
+            {exp = 11356}, {exp = 12741}, {exp = 14141}, {exp = 15701},
+            {exp = 17281}, {exp = 18876}, {exp = 20491}, {exp = 22126},
+            {exp = 25626}, {exp = 29151}, {exp = 32701}, {exp = 36271},
+            {exp = 39866}, {exp = 43741}, {exp = 47641}, {exp = 51566},
+            {exp = 55516}, {exp = 59491}, {exp = 66691}, {exp = 73921},
+            {exp = 81181}, {exp = 88471}, {exp = 95791}, {exp = 103551},
+            {exp = 111341}, {exp = 119166}, {exp = 127021}, {exp = 134906},
+            {exp = 149491}, {exp = 164116}, {exp = 178786}, {exp = 193496},
+            {exp = 208246}, {exp = 223041}, {exp = 237876}, {exp = 252751},
+            {exp = 267671}, {exp = 282631}, {exp = 305031}, {exp = 327531},
+            {exp = 350131}, {exp = 372731}, {exp = 395431}, {exp = 418131},
+            {exp = 440931}, {exp = 463731}, {exp = 486631}, {exp = 509531},
+            {exp = 544931}, {exp = 580331}, {exp = 615831}, {exp = 651431},
+            {exp = 687031}, {exp = 722731}, {exp = 758531}, {exp = 794331},
+            {exp = 830231}, {exp = 866231}
+        },
+        unitId = "ally_polar_fox",
+        id = "polar_fox",
+        expItemId = "exp_ally_polar_fox",
+        imageList = {
+            {level = 1, image = "image/ally_icons/polar_fox1.png"},
+            {level = 30, image = "image/ally_icons/polar_fox2.png"},
+            {level = 60, image = "image/ally_icons/polar_fox3.png"}
+        },
+        perkList = {
+            {
+                imageFile = "wolf_attack",
+                level = 1,
+                name = "Attack",
+                weapon = {id = "pet_polar_fox_attack"}
+            },
+            {
+                imageFile = "dodge",
+                level = 5,
+                name = "Dodge Chance",
+                dodgeChance = 0.25
+            }, {
+                commandId = "polar_fox_theft",
+                level = 10,
+                name = "Theft",
+                imageFile = "theft"
+            },
+            {imageFile = "move", level = 20, name = "Extra Move", maxMove = 1},
+            {
+                name = "Lure out",
+                text = "Lures out a small creature hiding nearby.",
+                level = 30,
+                imageFile = "polar_fox_summon",
+                weapon = {id = "pet_polar_fox_summon"}
+            }, {
+                imageFile = "free_attack",
+                level = 40,
+                name = "Free Attack",
+                weapon = {id = "pet_polar_fox_attack", isFreeAttack = true}
+            },
+            {
+                commandId = "polar_fox_hunt",
+                level = 50,
+                name = "Hunt",
+                imageFile = "hunt"
+            }, {
+                name = "Setup",
+                text = "Distracted by the polar fox, the target is right in the line of fire.",
+                level = 60,
+                imageFile = "polar_fox_debuff",
+                weapon = {id = "pet_polar_fox_debuff"}
+            },
+            {
+                speed = 1,
+                level = 70,
+                imageFile = "speed",
+                name = "Movement Range"
+            }, {
+                commandId = "polar_fox_stash",
+                level = 80,
+                name = "Find the cache",
+                imageFile = "stash"
+            }
+        },
+        healingList = {
+            {
+                hp = 0,
+                spendTime = 30,
+                need = {
+                    {"bint", 6, true}, {"medicine1", 1, true},
+                    {"bottled_water", 3, true}
+                }
+            }, {
+                hp = 50,
+                spendTime = 30,
+                need = {{"bint", 4, true}, {"bottled_water", 2, true}}
+            }, {
+                hp = 75,
+                spendTime = 30,
+                need = {{"bint", 2, true}, {"bottled_water", 1, true}}
+            }, {hp = 90, spendTime = 30, need = {{"bint", 1, true}}}
+        },
+        foodItemList = {
+            "simple_soup", "rat_meat", "snake_meat", "tough_meat", "salo",
+            "fresh_fish", "porridge_can", "beef_can", "fat_meat", "mutant_meat",
+            "fried_fish", "infected_meat", "fried_infected_meat",
+            "fried_rat_meat", "fried_snake_meat", "fried_tough_meat",
+            "fried_fat_meat", "fried_mutant_meat", "crumbs", "dryFish",
+            "drymeat", "hearty_soup", "rich_soup", "boiled_rice",
+            "boiled_pasta", "sausage", "chopmeat", "fried_chopmeat", "pet_food"
+        },
+        nameId = "polar_fox",
+        notCommmandTextList = {{}, {}, {}, {}, {}}
+    }, {
+        battleIconList = {
+            {level = 1, imageFile = "pet_polar_bear1", width = 0.6},
+            {level = 30, imageFile = "pet_polar_bear2", width = 0.58},
+            {level = 60, imageFile = "pet_polar_bear3", width = 0.6}
+        },
+        levelList = {
+            {exp = 0}, {exp = 17}, {exp = 34}, {exp = 51}, {exp = 68},
+            {exp = 85}, {exp = 102}, {exp = 119}, {exp = 136}, {exp = 153},
+            {exp = 170}, {exp = 187}, {exp = 204}, {exp = 221}, {exp = 238},
+            {exp = 255}, {exp = 272}, {exp = 289}, {exp = 306}, {exp = 323},
+            {exp = 390}, {exp = 460}, {exp = 534}, {exp = 611}, {exp = 691},
+            {exp = 816}, {exp = 946}, {exp = 1081}, {exp = 1221}, {exp = 1366},
+            {exp = 1866}, {exp = 2376}, {exp = 2896}, {exp = 3426},
+            {exp = 3966}, {exp = 4611}, {exp = 5266}, {exp = 5931},
+            {exp = 6611}, {exp = 7301}, {exp = 8636}, {exp = 9986},
+            {exp = 11356}, {exp = 12741}, {exp = 14141}, {exp = 15701},
+            {exp = 17281}, {exp = 18876}, {exp = 20491}, {exp = 22126},
+            {exp = 25626}, {exp = 29151}, {exp = 32701}, {exp = 36271},
+            {exp = 39866}, {exp = 43741}, {exp = 47641}, {exp = 51566},
+            {exp = 55516}, {exp = 59491}, {exp = 66691}, {exp = 73921},
+            {exp = 81181}, {exp = 88471}, {exp = 95791}, {exp = 103551},
+            {exp = 111341}, {exp = 119166}, {exp = 127021}, {exp = 134906},
+            {exp = 149491}, {exp = 164116}, {exp = 178786}, {exp = 193496},
+            {exp = 208246}, {exp = 223041}, {exp = 237876}, {exp = 252751},
+            {exp = 267671}, {exp = 282631}, {exp = 305031}, {exp = 327531},
+            {exp = 350131}, {exp = 372731}, {exp = 395431}, {exp = 418131},
+            {exp = 440931}, {exp = 463731}, {exp = 486631}, {exp = 509531},
+            {exp = 544931}, {exp = 580331}, {exp = 615831}, {exp = 651431},
+            {exp = 687031}, {exp = 722731}, {exp = 758531}, {exp = 794331},
+            {exp = 830231}, {exp = 866231}
+        },
+        unitId = "ally_polar_bear",
+        id = "polar_bear",
+        expItemId = "exp_ally_polar_bear",
+        imageList = {
+            {level = 1, image = "image/ally_icons/polar_bear1.png"},
+            {level = 30, image = "image/ally_icons/polar_bear2.png"},
+            {level = 60, image = "image/ally_icons/polar_bear3.png"}
+        },
+        perkList = {
+            {
+                imageFile = "bear_paw",
+                level = 1,
+                name = "Attack",
+                weapon = {id = "pet_polar_bear_attack"}
+            }, {
+                commandId = "polar_bear_fish",
+                level = 10,
+                name = "Fishing",
+                imageFile = "fish"
+            },
+            {imageFile = "move", level = 20, name = "Extra Move", maxMove = 1},
+            {
+                name = "Stunning Roar",
+                text = "Stuns enemies standing in front.",
+                level = 30,
+                imageFile = "bear_roar",
+                weapon = {id = "pet_polar_bear_aoe_stun"}
+            }, {
+                imageFile = "free_attack",
+                level = 40,
+                name = "Free Attack",
+                weapon = {id = "pet_polar_bear_attack", isFreeAttack = true}
+            },
+            {
+                commandId = "polar_bear_hunt",
+                level = 50,
+                name = "Hunt",
+                imageFile = "hunt"
+            },
+            {
+                imageFile = "dodge",
+                level = 55,
+                name = "Dodge Chance",
+                dodgeChance = 0.25
+            }, {
+                name = "Ground Tremors",
+                text = "A powerful ground strike reduces the combat effectiveness of nearby enemies.",
+                level = 60,
+                imageFile = "bear_stun",
+                weapon = {id = "pet_polar_bear_debuff"}
+            },
+            {
+                speed = 1,
+                level = 70,
+                imageFile = "speed",
+                name = "Movement Range"
+            }, {
+                commandId = "polar_bear_fortress",
+                level = 80,
+                name = "Find the Castle",
+                imageFile = "fortress"
+            }
+        },
+        healingList = {
+            {
+                hp = 0,
+                spendTime = 30,
+                need = {
+                    {"bint", 6, true}, {"medicine1", 1, true},
+                    {"bottled_water", 3, true}
+                }
+            }, {
+                hp = 50,
+                spendTime = 30,
+                need = {{"bint", 4, true}, {"bottled_water", 2, true}}
+            }, {
+                hp = 75,
+                spendTime = 30,
+                need = {{"bint", 2, true}, {"bottled_water", 1, true}}
+            }, {hp = 90, spendTime = 30, need = {{"bint", 1, true}}}
+        },
+        foodItemList = {
+            "simple_soup", "rat_meat", "snake_meat", "tough_meat", "salo",
+            "fresh_fish", "porridge_can", "beef_can", "fat_meat", "mutant_meat",
+            "fried_fish", "infected_meat", "fried_infected_meat",
+            "fried_rat_meat", "fried_snake_meat", "fried_tough_meat",
+            "fried_fat_meat", "fried_mutant_meat", "crumbs", "dryFish",
+            "drymeat", "hearty_soup", "rich_soup", "boiled_rice",
+            "boiled_pasta", "sausage", "chopmeat", "fried_chopmeat", "pet_food"
+        },
+        nameId = {"offer_ny_bear", "name"},
+        notCommmandTextList = {{}, {}, {}, {}, {}, {}}
+    }, {
+        battleIconList = {
+            {level = 1, imageFile = "pet_emba_varan1", width = 0.6},
+            {level = 30, imageFile = "pet_emba_varan2", width = 0.6},
+            {level = 60, imageFile = "pet_emba_varan3", width = 0.6}
+        },
+        levelList = {
+            {exp = 0}, {exp = 17}, {exp = 34}, {exp = 51}, {exp = 68},
+            {exp = 85}, {exp = 102}, {exp = 119}, {exp = 136}, {exp = 153},
+            {exp = 170}, {exp = 187}, {exp = 204}, {exp = 221}, {exp = 238},
+            {exp = 255}, {exp = 272}, {exp = 289}, {exp = 306}, {exp = 323},
+            {exp = 390}, {exp = 460}, {exp = 534}, {exp = 611}, {exp = 691},
+            {exp = 816}, {exp = 946}, {exp = 1081}, {exp = 1221}, {exp = 1366},
+            {exp = 1866}, {exp = 2376}, {exp = 2896}, {exp = 3426},
+            {exp = 3966}, {exp = 4611}, {exp = 5266}, {exp = 5931},
+            {exp = 6611}, {exp = 7301}, {exp = 8636}, {exp = 9986},
+            {exp = 11356}, {exp = 12741}, {exp = 14141}, {exp = 15701},
+            {exp = 17281}, {exp = 18876}, {exp = 20491}, {exp = 22126},
+            {exp = 25626}, {exp = 29151}, {exp = 32701}, {exp = 36271},
+            {exp = 39866}, {exp = 43741}, {exp = 47641}, {exp = 51566},
+            {exp = 55516}, {exp = 59491}, {exp = 66691}, {exp = 73921},
+            {exp = 81181}, {exp = 88471}, {exp = 95791}, {exp = 103551},
+            {exp = 111341}, {exp = 119166}, {exp = 127021}, {exp = 134906},
+            {exp = 149491}, {exp = 164116}, {exp = 178786}, {exp = 193496},
+            {exp = 208246}, {exp = 223041}, {exp = 237876}, {exp = 252751},
+            {exp = 267671}, {exp = 282631}, {exp = 305031}, {exp = 327531},
+            {exp = 350131}, {exp = 372731}, {exp = 395431}, {exp = 418131},
+            {exp = 440931}, {exp = 463731}, {exp = 486631}, {exp = 509531},
+            {exp = 544931}, {exp = 580331}, {exp = 615831}, {exp = 651431},
+            {exp = 687031}, {exp = 722731}, {exp = 758531}, {exp = 794331},
+            {exp = 830231}, {exp = 866231}
+        },
+        unitId = "ally_emba_varan",
+        id = "emba_varan",
+        expItemId = "exp_ally_emba_varan",
+        imageList = {
+            {level = 1, image = "image/ally_icons/emba_varan1.png"},
+            {level = 30, image = "image/ally_icons/emba_varan2.png"},
+            {level = 60, image = "image/ally_icons/emba_varan3.png"}
+        },
+        perkList = {
+            {
+                imageFile = "wolf_attack",
+                level = 1,
+                name = "Attack",
+                weapon = {id = "pet_genko_attack"}
+            }, {
+                commandId = "emba_varan_plant",
+                level = 10,
+                name = "Search for herbs",
+                imageFile = "search_herb"
+            },
+            {
+                speed = 1,
+                level = 20,
+                imageFile = "speed",
+                name = "Movement Range"
+            }, {
+                name = "Metabolism poisoning",
+                text = "All received healing is turned into damage",
+                level = 30,
+                imageFile = "varan2",
+                weapon = {id = "pet_genko_aoe_notHeal"}
+            }, {
+                name = "Fly",
+                isFly = true,
+                level = 35,
+                imageFile = "varan_fly",
+                text = "Obstacles do not interfere with your movement in battle."
+            }, {
+                imageFile = "free_attack",
+                level = 40,
+                name = "Free Attack",
+                weapon = {id = "pet_genko_attack", isFreeAttack = true}
+            },
+            {
+                commandId = "emba_varan_hunt",
+                level = 50,
+                name = "Hunt",
+                imageFile = "hunt"
+            },
+            {
+                imageFile = "dodge",
+                level = 55,
+                name = "Dodge Chance",
+                dodgeChance = 0.25
+            },
+            {imageFile = "move", level = 60, name = "Extra Move", maxMove = 1},
+            {
+                name = "Neurotoxin",
+                text = "Blocks all creature's attacks",
+                level = 70,
+                imageFile = "varan3",
+                weapon = {id = "pet_genko_debuff"}
+            }, {
+                commandId = "emba_varan_hive",
+                level = 80,
+                name = "Find a biocluster",
+                imageFile = "varan_hive"
+            }
+        },
+        healingList = {
+            {
+                hp = 0,
+                spendTime = 30,
+                need = {
+                    {"bint", 6, true}, {"medicine1", 1, true},
+                    {"bottled_water", 3, true}
+                }
+            }, {
+                hp = 50,
+                spendTime = 30,
+                need = {{"bint", 4, true}, {"bottled_water", 2, true}}
+            }, {
+                hp = 75,
+                spendTime = 30,
+                need = {{"bint", 2, true}, {"bottled_water", 1, true}}
+            }, {hp = 90, spendTime = 30, need = {{"bint", 1, true}}}
+        },
+        foodItemList = {
+            "simple_soup", "rat_meat", "snake_meat", "tough_meat", "salo",
+            "fresh_fish", "porridge_can", "beef_can", "fat_meat", "mutant_meat",
+            "fried_fish", "infected_meat", "fried_infected_meat",
+            "fried_rat_meat", "fried_snake_meat", "fried_tough_meat",
+            "fried_fat_meat", "fried_mutant_meat", "crumbs", "dryFish",
+            "drymeat", "hearty_soup", "rich_soup", "boiled_rice",
+            "boiled_pasta", "sausage", "chopmeat", "fried_chopmeat", "pet_food"
+        },
+        nameId = {"emba_varan_pet", "name"},
+        notCommmandTextList = {{}, {}, {}, {}, {}, {}}
+    }
+}
