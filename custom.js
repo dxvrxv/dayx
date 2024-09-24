@@ -1675,7 +1675,7 @@ DayX = () => {
                     UpdateElement(["#popup", { style: { display: "block" } }], ["#popup > div", { innerHTML: `<div><span><h5>Promocode</h5></span><input placeholder="Code"><input placeholder="Max Use"><button>Generate</button></div>` }])
                     // this.previousSibling.previousSibling.value.length != 0 && (data.Code.push([this.previousSibling.previousSibling.value, '', data.List.map(l => l[2]).join('|'), { noImg: true }]), UpdateElement(['#popup', { style: { display: 'none' } }]))
                 } else if (element.textContent == "Refresh Code") {
-                    fetch("https://dxvrxv.vercel.app/api/promocode?code=*").then(res => res.json()).then(res => res.forEach(r => (data.Code = [], data.Code.push([r.code, r.remain.toString(), r.content, { noImg: true }])), UpdateElement(["#Code", { innerHTML: "" }, ...data.Code.map((d, i) => [`div#${d[0]}.Code-${i}`, { title: d[1], innerHTML: `<span><h5>${d[0] + (d[1] ? " -> " + d[1] : "")}</h5>${d[2] || ""}</span>` }])]), alert("Code refreshed")));
+                    fetch("https://dxvrxv.vercel.app/api/promocode?code=*").then(res => res.json()).then(res => res.forEach(r => data.Code = [], (data.Code.push([r.code, r.remain.toString(), r.content, { noImg: true }])), UpdateElement(["#Code", { innerHTML: "" }, ...data.Code.map((d, i) => [`div#${d[0]}.Code-${i}`, { title: d[1], innerHTML: `<span><h5>${d[0] + (d[1] ? " -> " + d[1] : "")}</h5>${d[2] || ""}</span>` }])]), alert("Code refreshed")));
                 }
             }}
         ]
