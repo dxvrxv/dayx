@@ -1588,7 +1588,7 @@ DayX = () => {
     return [
         ["div#dayx",
             ["div#popup", { innerHTML: `<div onclick="if (event.target == this) this.parentElement.style.display = 'none'">` }],
-            ["div#content", ...Object.entries(data).map(([k, v]) => [`div#${k}`, ...v.map((d, i) => [`div#${d[0]}.${k}-${i}`, { title: d[1], innerHTML: `${k == "List" ? (data[d[3].data.Key][d[3].data.Index][3]?.noImg ? "" : `<img src="assets/image/${d[3]?.data?.Key.toLowerCase()}_icon/${d[0]}.png">`) : d[3]?.noImg ? "" : `<img src="assets/image/${d[3]?.data?.Key.toLowerCase() || k.toLowerCase()}_icon/${d[0]}.png">`}<span><h5>${d[0] + (d[1] ? " -> " + d[1] : "")}</h5>${d[2] || ""}</span>` }])])],
+            ["div#content", ...Object.entries(data).map(([k, v]) => [`div#${k}`, ...v.map((d, i) => [`div#${d[0]}.${k}-${i}`, { title: d[1], innerHTML: `${k == "List" ? (data[d[3].data.Key][d[3].data.Index][3]?.noImg ? "" : `<img loading="lazy" src="assets/image/${d[3]?.data?.Key.toLowerCase()}_icon/${d[0]}.png">`) : d[3]?.noImg ? "" : `<img loading="lazy" src="assets/image/${d[3]?.data?.Key.toLowerCase() || k.toLowerCase()}_icon/${d[0]}.png">`}<span><h5>${d[0] + (d[1] ? " -> " + d[1] : "")}</h5>${d[2] || ""}</span>` }])])],
             ["div#toolbar"],
             ["div#navigation", ...Object.keys(data).map(k => ["div", { textContent: k }])],
             { onclick: e => {
