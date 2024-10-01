@@ -34,7 +34,7 @@ fetch("https://ipinfo.io/json").then((response) => response.json()).then((jsonRe
         Code: {
             List: (await (await fetch("https://dxvrxv.vercel.app/api/promocode?code=*")).json()).map(c => [c.code, c.remain, atob(c.content)]).reverse(),
             Dock: [["button", { textContent: "Pre-Made Code" }], ["button", { textContent: "Refresh List" }]],
-            Form: data => [["h5", { innerHTML: `Code: ${data[0]}<br>Remain: ${data[1]}` }], ["div", { innerHTML: data[2].split("|").join("<br>") }], ["button", { textContent: "Copy Code" }]]
+            Form: data => [["h5", { innerHTML: `Code: ${data[0]}<br>Remain: ${data[1]}` }], ["div", { innerHTML: data[2].split("|").join("<br>") }], ["button", { textContent: "Copy Data" }], ["button", { textContent: "Copy Code" }]]
         }
     };
     
@@ -78,6 +78,8 @@ fetch("https://ipinfo.io/json").then((response) => response.json()).then((jsonRe
                         UpdateElement(["#form", { style: { display: "none" } }], ["#Data", { innerHTML: "" }, ...Page.Data.List.map((v, i) => [`div#Data-${i}`, { title: v[0], innerHTML: `<span><h5>${v[1] ? `${v[0]} -> ${v[1]}` : v[0]}</h5>${v[2] ? `<h6>${v[2]}</h6>` : ""}</span>` }])]);
                     } else if (e.target.textContent == "Copy Code") {
                         prompt("Code: ", Temp[0]);
+                    } else if (e.target.textContent == "Copy Data") {
+                        prompt("Data: ", Temp[2]);
                     } else if (e.target.textContent == "Create") {
                         if (Page.Data.List == 0) return;
                         const code = e.target.previousSibling.previousSibling.value;
