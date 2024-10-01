@@ -1,0 +1,1 @@
+setTimeout(async () => (Page = { ...{ Load: function (...d) { !this.Initied && (this.Initied = true, CreateElement(...Data.Web.Root())); UpdateElement(["main", { innerHTML: "" }, ...d.reduce((a, v) => typeof a?.[v] == "function" ? a?.[v]() : a?.[v], this)], ["#nav-btn", { checked: false }]) } }, ...Data.Web.Page })["Load"]("Projects", "DayX"), 100);
