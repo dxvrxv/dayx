@@ -27,4 +27,4 @@ button:hover { background-color: hsl(222, 22%, 10%); }
 
 #page #Home { display: block; }
 #page #Misc > div:not(:first-child) { color: #F00; }
-#navi button:first-child { color: #0FF; }
+#navi button:first-child:not(.active) { color: #0FF; }
