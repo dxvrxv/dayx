@@ -74,7 +74,7 @@ fetch("https://ipinfo.io/json").then((response) => response.json()).then((jsonRe
                         UpdateElement(["#form", { style: { display: "none" } }], ["#Data", { innerHTML: "" }, ...Page.Data.List.map((v, i) => [`div#Data-${i}`, { title: v[0], innerHTML: `<span><h5>${v[1] ? `${v[0]} -> ${v[1]}` : v[0]}</h5>${v[2] ? `<h6>${v[2]}</h6>` : ""}</span>` }])]);
                     } else if (e.target.textContent == "Remove Data") {
                         delete Page[Key].List[Index];
-                        Page[Key].List.filter(Boolean);
+                        Page[Key].List = Page[Key].List.filter(Boolean);
                         UpdateElement(["#form", { style: { display: "none" } }], ["#Data", { innerHTML: "" }, ...Page.Data.List.map((v, i) => [`div#Data-${i}`, { title: v[0], innerHTML: `<span><h5>${v[1] ? `${v[0]} -> ${v[1]}` : v[0]}</h5>${v[2] ? `<h6>${v[2]}</h6>` : ""}</span>` }])]);
                     } else if (e.target.textContent == "Copy Code") {
                         prompt("Code: ", Temp[0]);
