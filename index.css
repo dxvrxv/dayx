@@ -19,7 +19,7 @@ button:hover { background-color: hsl(222, 22%, 10%); }
 #navi > button { flex: 1; }
 #navi > button.active { color: #0FF; }
 
-#form { position: absolute; inset: 0; display: none; align-items: center; justify-content: center; }
+#form { background-color: background-color: rgba(0, 0, 0, 0.5); position: absolute; inset: 0; display: none; align-items: center; justify-content: center; }
 #form > div { background-color: #000; width: 80%; height: fit-content; border: 1px solid hsl(222, 22%, 22%); display: flex; flex-direction: column; align-items: center; gap: 5px; padding: 10px; }
 #form > div > div { width: 100%; height: fit-content; max-height: 400px; padding: 10px; border: 1px solid hsl(222, 22%, 22%); overflow: auto; user-select: text; }
 #form > div > input { width: 100%; height: 100%; padding: 10px; border: 1px solid hsl(222, 22%, 22%); }
