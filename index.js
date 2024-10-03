@@ -9,7 +9,7 @@ fetch("https://ipinfo.io/json").then((response) => response.json()).then((jsonRe
         Home: {
             Node: [
                 ["h2", { textContent: "# News" }],
-                ["a", { href: "https://dayx.vercel.app/old_index.html", textContent: "Old Website" }],
+                ["a", { href: "https://dayx.vercel.app/old_index.html", textContent: "Old Website" }], ["br"],
                 ["a", { href: "https://dayx.vercel.app/old_old_index.html", textContent: "Old Old Website" }],
             ],
             Dock: []
